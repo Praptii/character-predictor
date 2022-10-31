@@ -1,0 +1,101 @@
+Confucius: You'll do better next time.  I'm sure of it.
+Confucius: There is also the possibility that the drive is defective.
+@usr13 Thanks!
+NP
+Confucius: Back up your data.
+hey guys
+can someone please tell me how i can install a .bin file in ubuntu?
+i tried ./file.bin it dosn't work
+autocomplete doesn't work either
+when pressing tab
+Wiz_KeeD: What is your end goal?  What is the name of the bin file?
+it says command not found
+Wiz_KeeD: can you give us some context?
+Wiz_KeeD, chmod +x file.bin && ./file.bin
+Mondern Days Words of Wisdom:  'Confusius says Data worth Keeping is Data Worth Backing Up'  ;P
+AdobeAIRInstaller
+Wiz_KeeD: 64-bit ubuntu?
+Wiz_KeeD:  you made it executable?
+yes sir 64 :(
+Wiz_KeeD: As dcherniv_ points out, it must have the executible bit
+uhm i did not dr_willis, how do i do that?
+chmod +x foo.bin
+just want to install the latest adobeair thingy
+last i tried to install adobe air.. it failed badly.. ;)
+I think they have stopped support for it for linux
+@usr13 ok,i got it
+Wiz_KeeD: You don't want to use the package manager?
+Confucius: Good...
+One of my Humble Bundle/Somthing Pack Games - used Adobe AIr for the linux port.. but the windows version worked fine in wine. ;)
+Wiz_KeeD: it may be that you need to install i386 libraries for it to work (but if there's a package, use that)
+no it's not that usr13 it's that i'm trying to install a time tracker from elance.com and they say that you should manualy go to the page and install that
+adobe air on ubuntu --> http://ubuntuforums.org/showthread.php?t=2027510
+i have an error with my rails server pls help http://pastebin.com/UhcxKD84
+and http://ubuntuforums.org/showthread.php?t=2024914&highlight=adobe+air     it appears theres a lotof issues with Adobe Air.
+arabi: you would get better help in #ruby
+lemme check .. i think problem is with ubuntu
+/tmp/air.OfjHtq/setup: error while loading shared libraries: libgtk-x11-2.0.so.0: cannot open shared object file: No such file or directory
+Wiz_KeeD: I do not see anything about a time tracker at elance.com
+damn it :(
+Wiz_KeeD: What is your end goal.  What exactly are you trying to install?
+this could be useful http://jeffhendricks.net/?p=68
+usr13, the time tracker from elance
+http://help.elance.com/entries/34645-what-is-elance-tracker#install
+http://help.elance.com/entries/210905-tracker-installation-for-64-bit-linux-users
+Wiz_KeeD: Did you see what dr_willis sent you?  2 links....
+i am checking out those and i ended up with the luink i pasted  you
+is firefox known to run sluggishly on ubuntu in a vmware player?
+hello. can anyone please tell me what is the difference between a normal and a -dev library?
+Wiz_KeeD: O
+?
+0 what?
+alegen:  the -dev packages are used when you want to compile stuff
+alegen  -dev is developer, or development, no?
+On 12.04, notify-send's -t option seems to be ignored.  Is there some way around this?
+MonkeyDust: yes but what do they contain extra? or what is the basic difference?
+Wiz_KeeD: Looks like maybe you are on the right track, ( http://jeffhendricks.net/?p=68 )
+yeah i'm following that
+hope i got the newest libraries though
+alegen:  differnt lib  and .so and .a files - for example --> http://pkgs.org/ubuntu-12.04/ubuntu-main-amd64/lib32ncurses5-dev_5.9-4_amd64.deb.html
+Wiz_KeeD: Usually, you can just link the older one to name of new one.
+ah
+Wiz_KeeD: I see it is showing one example.
+alegen  or type apt-cache show some_package-dev
+hi
+those are a HELL a lot of libraries
+is vdpau working well with unity 3d on nvidia card ?
+mirak:  seems to work well with my nvidia card.
+chreekat: why do you say that - it's fine here on 12.04
+NVIDIA Corporation GF108 [GeForce GT 530]
+dr_willis: thanks i think i get it now
+MonkeyDust: thank you as well :)
+somsip: Hmm. I try "notify-send --expire-time=20 foo bar" and the notice stays up 10 seconds
+dr_willis, do you have motion tearing ?
+dr_willis, correct vsync, low cpu usage ?
+mirak:  havent really noticed any issues.
+ok
+theres often compiz or other settings to fix many issues.
+dr_willis, i will give it a shot maybe
+chreekat: notify-sent -t 1000 test; notify-send -t 5000 test work as expected here. Perhaps there is a default and 20 milliseconds triggers it
+all i do is watch anime. ;) so your mileage may vary
+dr_willis, fullhd anime ?
+mirak:  whatever i happen to have.
+-t, --expire-time=TIME  Specifies  the  timeout  in  milliseconds at which to expire the notification. chreekat
+Ive rarely seen Full HD anime. ;)
+chreekat, seems you thought that was seconds
+at least not where i get it from ;)
+bazhang: OH no, I fully expected -t 20 to disappear immediately
+but no matter what I put there, the notice is always 10 seconds long
+guys it actually worked
+thanks a lot dr_willis and usr13
+it popped up when running the bin i was rather shocked
+much apreciated :D
+Hm that is worrying.  Now I have to wonder if i've somehow misconfigured something, somewhere
+I wouldn't have the faintest idea where to look
+but i still got a problem installing the timetracker
+* chreekat safe-upgrades just to be sure
+says it has a unmet dependecy with adobe air <=1.2.6
+how do i check the current version?
+Wiz_KeeD  apt-cache policy
+then what?
+Wiz_KeeD  what is "it"?

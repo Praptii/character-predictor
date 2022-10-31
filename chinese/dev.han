@@ -1,0 +1,100 @@
+piggybox: 你用mac的launchd不
+ofan: 偶尔用
+ofan, 你在用什麼vps呀？
+piggybox: 管理服务超方便
+ofan: systemd是效仿launchd的？
+systend还自带dbus功能，udev
+也不用了
+那和upstart比呢？
+所有挂载点都是一个systemd target
+upstart 太烂了，只有ubuntu 用
+upstart是毛
+launchd的设计非常好
+systemd就抄的launchd
+哦，这样啊
+mac下添加一个服务就写几行plist就行
+ofan, 都mac了還在用linux？
+ofan: 只能自己编译twinkle
+统一log，之前rc.d启动失败不会显示log，systemd还带分析功能
+cleamoon_: 用
+ofan, 不感覺浪費嗎？
+cleamoon_: 上网本用
+cleamoon 他机器多
+cleamoon 二代
+等wayland成熟了就给mac装
+mugebjgd, 的確......
+ofan, 你真閑...
+cleamoon_: 服务器上还得用linux啊
+mugebjgd: 学点新台词行么
+piggybox, 沒人在服務器上用mac吧...
+cleamoon_: 哥不闲
+cleamoon_: 有mac osx server版，好像只有那些做媒体剪辑的用
+折腾linux已经轻车熟路了
+ofan: 饭饭，帮忙测试。。
+piggybox, 那是吃飽了撐的
+ofan: https://github.com/alvinrxg/douban_timezone
+alvin_rxg ⇪ ti: alvinrxg/douban_timezone · GitHub
+把本子的亮度調到最大 => 晃瞎哥的狗眼...
+睡觉
+alvin_rxg: 得出门了
+mugebjgd, 好早
+>_< 有空帮我测吧。
+cleamoon 11点
+cleamoon 还早？
+mugebjgd, 很早
+mugebjgd, 2點睡才正常
+cleamoon_: 和你这样的学生没法比啊
+cleamoon_: 你是不用7点半起床
+mugebjgd, 上班才舒服吧，晚點去也無所謂
+mugebjgd, 我6點起床...
+cleamoon_: 周6飞米国
+mugebjgd, 在地鐵上睡1小時
+cleamoon_: 要多在家陪陪老婆
+mugebjgd, 那到時候再睡唄
+* mugebjgd 睡觉
+mugebjgd, 多做
+来米国哪里
+换时间了嘛？还没吧？
+shit! 现在明明是 CEST 时间，为啥 js 里跑着跑着就是 CET 时间啦！！！！！！ damn!
+哦，明白了…… =.= 呃，好神裸好……
+ 06:20
+没人早期打牌？
+人们应该从上午11点开始睡觉，到下午6点起床。
+早上好！
+Ein-mobile: 你是学什么的啊？
+MeaCulpa, 降级安装了openrc和udev-init-scripts之后系统终于正常了
+新 启动和引导 • 【求助】每次都要花很多时间来引导系统 http://forum.ubuntu.com.cn/viewtopic.php?t=390676 之前电脑没有问题，直到有一次硬盘出现错误，整个系统崩溃。 那时没有liveCD，所以用xp的光碟里面的PQ修复了一下，后遗症是分区名称从hd0,1 hd0,2 ...变成了hd0,msdos1 hd0,msdos2 ... 所以现在 …
+.
+技嘉有一款主板不错
+杀手系列的M3
+可以搭配英特尔 i5 3507k
+或者 i7 3770K
+all 早
+i7, 必须的
+今天重阳节哦
+祝各位重阳节快乐
+MeaCulpa_:  i 7?还是选择E3呢
+有个E3的1275 v2的也不错
+和3770K同级别的
+1275?
+o
+恩
+也是内置有核心显卡
+带显卡的啊
+恩
+* Ian|zh_CN 用1230的路过……
+支持VT-d 虚拟化技术
+Ian|zh_CN: 你用1230的发热量大么？？
+用好主板都是大块头的
+不知道，不关心
+又不是笔记本
+你有来运行虚拟机么？？？？
+vbox而已
+culv都能运行虚拟机……
+没有vt-d什么的……
+内存8GB
+不是，主要是虚拟机的系统可以使用物理设备的I/O
+这样传输性能更快
+不过，买这些带有虚拟化技术的处理器
+都可组装两台APU主机了
+没有性价比可言

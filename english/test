@@ -1,0 +1,101 @@
+Wiz_KeeD  what is "it"?
+For some reason when I open a new terminal it doesnt automatically source my bashrc file. I have to type in bash or . .bashrc for my aliases to work. Is there a preference I can set to make this work?
+any idea when the Cyborg Rat gaming mouse series will be supported?
+cloudman, when someone writes a driver for it. best bet is to buy one and a case of beer for someone who can
+escott, is that all it is then?
+It sucks, but that's really how it works.
+all I want is basic click function
+it skips, darn thing
+cloudman, its strange that you mouse doesnt support HID, but if it doesn't then someone has to write a specialized driver
+will check some settings
+Wait, it skips?
+As in, it works to some extend?
+animal, yeah sometimes its ok, but on full windows
+then it stops at times etc etc
+pain in the butt
+If my notify-send does not work the same as others' notify-send, I must assume that somewhere down the line (in libnotify?) some configuration option is overriding the duration option
+I don't understand.
+Any pointers on getting to the bottom of that?
+animal, I dont either, sometimes it works and sometimes not
+Did it ever work (even partially) in ubuntu?
+yes
+using another at the moment
+* Evil_Eric makes coffee for everyone 
+cloudman, usually with these specialized gaming products the core protocol works (clicking and moving) but some added features dont (the heads up LED, the programmable buttons, the time reversal switch, etc)
+Evil_Eric: thx :)
+np
+However escott, that doesn't seem to be the case here.
+http://askubuntu.com/questions/92546/problem-with-cyborg-r-a-t-3-gaming-mouse   cloudman
+He said it sometimes do work, but all he desires is stable point/click-fucntionality
+it will close this chat because its maxed size, but if I resize it, no chance
+also for the 5 and 7 cloudman
+thanks
+how to login with a registered nick name
+pls help
+hey all -- stupid question.... in gnome-shell certain commands (eg., switching workspaces by key combo) leave me with a crosshair-like mouse cursor rather than an arrow, and i have to click in order to get focus back to whatever i'm doing.  anyone know how to fix this?  it's super annoying...
+is firefox known to run sluggishly on ubuntu in a vmware player?
+jValentin, how much memory alloted to it
+2GB
+arabi, /join #freenode for help
+bazhang: 2GB ram, 60GB hard disk space
+jValentin, how many tabs,etc is typical for it to get sluggish. what addons do you have for it
+Have you used the VM long? And are you sure all your hardware/drivers register properly?
+Firefox can run sluggishly even if the puter skips a propper gpu
+originally, the whole thing would come to a crawl after leaving it idle for hours, when I exited firefox, I found it was quicker to respond, almost instant
+animal, a VM does not use those same system drivers
+bazhang: about 15 tabs, using the verticle tab manager addon
+jValentin, whats the host, whats the guest
+other mouse not working now, because I breifly used the Rat, geez
+Bazhang, that depends on what you mean.
+bazhang: it's called TreeStyle Tab, also the TabGroups manager
+animal, video drivers. and so forth
+host is Windows, guest is Ubuntu 12.04
+cloudman, then check the link I gave you and find the fixes there
+I've used VirtualBox successfully in the past, but wanted to try vmware because I'd heard it was more stable
+when I run 'apt-get update/upgrade' I generate lots of errors, a la >> Setting up samba4 (4.0.0~alpha18.dfsg1-4ubuntu2) ...
+Unknown parameter encountered: "map to guest"
+jValentin, I'd find the plugins to be the culprit. try removing some, and see which has the greatest effect. some are not well written at all
+Ignoring unknown parameter "map to guest"
+how can I clean up apt-get and the various files it interacts with to eliminate these errors?
+bazhang: I think you're right, was just wondering if Ubuntu had known issues or special reqs for running in vmware player
+I wanted a portable development environment, thus the vmplayer solution
+jValentin, not really. vbox has been the vm of choice for a while though. vmware has gone down a great deal in quality of the last several years
+s/of/over/
+Oh ho, look what I found regarding my notify-send problem: http://askubuntu.com/questions/110969/notify-send-ignores-timeout
+hmm, that sucks, well, on Mac, vbox is slow, thus my switch
+jValentin, well then disabling addons one by one seems the best way to get it back up to snuff
+Greetings
+Hm, maybe that's old news though
+Is there a way to change the colour of the Unity sidebar? It picked a yellow-ish colour based on my background, but that doesn't really work too well.
+must actually read it
+bazhang: I will do that, thanks. On the question of virtual machines, I definitely need to know which is the more stable
+when I run 'apt-get update/upgrade' I generate lots of errors, a la >> Setting up samba4 (4.0.0~alpha18.dfsg1-4ubuntu2) ...Unknown parameter encountered: "map to guest" ?? how can I resolve these?
+the one great thing about vbox that I noticed is that it allows for viewing of paralles machines
+bonez2046, what version of ubuntu. dual boot? wubi install or what
+bonez2046  what's the exact command?
+that would allow me to port my ubuntu vbox to my max
+bazhang: ubuntu 12.04, no dual boot, just ubuntu.
+bonez2046, any suspect repos or PPA in there?
+MonkeyDust: command is 'apt-get install samba4' but it also shows up with 'apt-get update && apt-get upgrade' too
+I am using grub-customizer; can't get submenu to work; grub menu always shows as a long single list w/o submenu.  Any ideas?
+bazhang: I guess I COULD start paring away any suspect entries in there, but none seem problematic
+MonkeyDust: I am trying to get samba upgraded and I noticed these when I ran apt-get install samba4
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=681048
+Ok, this is annoying.  notification-daemon respects the timeout option, but notify-osd does not
+Why would they do that
+Hello.  grub-customizer; submenu not appearing; Grub1.99; any ideas?
+oops; Grub1.98 not 1.99.
+ciao
+Hey everyone.
+When i try to burn an iso image to a dvd it asks me if i want to burn as file or image. If i pick file it burn but then shows nothing on the dvd if i pick image it errors and my screen kinda crashes.
+tobia: Did you use the same DVD twice?
+no brand new vd
+dvds*
+What ISO is it?
+windows 7
+trying to use it for virtual box
+tobia, #vbox or ##windows
+vbox said it wasnt related to them
+and its not a windows issue
+im trying to burn the dvd with ubuntu
+tobia, how is it related to Ubuntu
